@@ -1,22 +1,62 @@
-<!DOCTYPEhtml>
-</html>
-	</body>
-	<h1> My First Web Page</h1>
-<p> Kindly do exactly what you see here as it would affect your score<br> Whether it is your first webpage in life or not use the heading above it won't bite</br> <p/>
-	<h2>H2 Heading</h2>
-	<p>As a best practice, your webpage should have just one</p> 
-		<br>element</br>
-		<h3>h3 Heading</h3>
-		<p>This test is too simple to fail. <br>It is simply a test of how much you have been following course.</br></p>
-		<p>Thanks.. Wait..<br>you will have to upload this project to github.. yea.</br></p>
-		<H4>H4 Heading</H4>
-		<p>Use the file structure that will be shown here below</p>
-			<p>:::first_webpage:::</p>
-			<blockquote>
-			<p>I-----:::index.html:::</p>
-			<p>I-----:::style.css:::</p>
-			<p>I-----:::script.jss:::</p>
-			</blockquote>
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" href="style.css">
+<body>
+		<title>Piggyvest Sign Up Page</title>
 
-<body/>
-<html/>
+			<img src="../Img/piggyvest-logo.0b78a8fa.svg">
+	<main>
+					<div class="card">
+			<div class="container">
+			<H1> Create A Secure Account</H1><p> Welcome to the future of savings & Investment</p><br>
+
+	<form class="my-form">
+		<div class="form-group">
+		<label for="Fname">Full Name</label><br>
+		<input type="text" placeholder="Full Name" id="myInput" onkeyup="filterFunction()"><br>
+		</div>
+		<div class="form-group">
+		<label for="Email">Email Address</label><br>
+		<input type="text" placeholder="Email Address" id="myInput" onkeyup="filterFunction()"><br>
+		</div>
+
+		<div class="form-group">
+		<label for="Phoneno">Phone Number</label><br>
+		<input type="text" placeholder="Phone Number" id="myInput" onkeyup="filterFunction()"><br>
+		</div>
+
+		<div class="form-group">
+		<label for="Pword">Password</label><br>
+		<input type="text" placeholder="Password" id="myInput" onkeyup="filterFunction()"><br>
+		</div>
+
+		<div class="form-group">
+		<label for="referrer">Referrer Phone or Promo Code (Optional)</label><br>
+		<input type="text" placeholder="Referrer Phone or Code" id="myInput" onkeyup="filterFunction()"><br>
+		<label for="How did you">How did you hear about us</label><br>
+		<input list="How did you" placeholder="Click to Select" id="myInput" onkeyup="filterFunction()"><br>
+	<datalist id="How did you">
+	  <option value="Facebook">
+	  <option value="Twitter">
+	  <option value="Instagram">
+	  <option value="Friend/Family/Coworker Referal">
+	  <option value="Google Search">
+	  <option value="Online Blog">
+	  <option value="Local Newspaper">
+	  <option value="Google Playstore">
+	  <option value="Others">
+	</datalist></label><br>
+
+		<button class="btn create Account"> CREATE ACCOUNT</button><br>
+		</div>
+
+		</div>
+</form>
+		</div>
+		</div>
+</main>
+<p1>Already have an account? Log in</p1>
+</head>
+</body>
+</html>
